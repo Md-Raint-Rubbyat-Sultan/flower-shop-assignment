@@ -265,6 +265,31 @@
     border-radius: 8px;
 }
 
+/* About style */
+.about-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto 100px;
+}
+
+.about-acco{
+    color: #272727;
+    background-color: #E554731A;
+    width: 100%;
+    border: 2px solid #E554731A;
+    border-radius: 8px;
+}
+
+summary{
+    margin: 20px;
+}
+
+.about-para{
+    padding: 0 20px 20px;
+}
+
 /* footer style */
 footer {
     background-color: #111010;
