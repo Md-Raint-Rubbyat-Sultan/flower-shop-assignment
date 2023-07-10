@@ -25,7 +25,7 @@
     background-color: #fff;
 }
 
-.center-text{
+.center-text {
     text-align: center;
 }
 
@@ -35,17 +35,12 @@
     justify-content: space-between;
     align-items: center;
     background-color: #E554731A;
-    padding: 50px 200px 0;
+    padding: 50px 120px 0;
     margin: 0;
 }
 
 .banner-texts {
-    padding: 0 60px;
-}
-
-.deal-head {
-    color: #272727;
-    font-weight: 800;
+    padding: 0 60px 0 0;
 }
 
 .banner-head {
@@ -68,6 +63,112 @@
     height: 500px;
 }
 
+/* feature style */
+.feature-container{
+    margin: 100px 0;
+}
+
+.feature-head {
+    color: #272727;
+    font-weight: 800;
+}
+
+.feature-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 0;
+    padding: 0 450px;
+}
+
+.feature-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 0;
+    padding: 0 120px;
+}
+
+.feature-single-img-1 {
+    width: 350px;
+    height: 350px;
+    background-color: #A7216226;
+    border-radius: 50% 50% 0 0;
+    background-image: url('../assets/flower-img/pngwing 6.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 60%;
+    overflow: hidden;
+}
+
+.feature-single-img-2 {
+    width: 350px;
+    height: 350px;
+    background-color: #0597A026;
+    border-radius: 50% 50% 0 0;
+    background-image: url('../assets/flower-img/pngwing 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    overflow: hidden;
+}
+
+.feature-single-img-3 {
+    width: 350px;
+    height: 350px;
+    background-color: #477D1126;
+    border-radius: 50% 50% 0 0;
+    background-image: url('../assets/flower-img/pngwing 7.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 60%;
+    overflow: hidden;
+}
+
+.feature-flower-name {
+    color: #272727;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 20px 0;
+}
+
+.feature-img {
+    height: 300px;
+}
+
+/* service style */
+.service-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2727270D;
+    width: 64%;
+    padding: 50px 120px;
+    border-radius: 8px;
+}
+
+.single-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-weight: 600;
+    line-height: 35px;
+    margin: 20px 0 0;
+}
+
 /* hot deal style */
 .deal-container {
     display: flex;
@@ -75,7 +176,7 @@
     align-items: center;
     background-color: #E554730D;
     margin: 100px 0;
-    padding: 60px 280px;
+    padding: 60px 200px;
 }
 
 .deal-text {
@@ -83,7 +184,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;    
+    padding: 0 50px 0 0;
+}
+
+.deal-head {
+    color: #272727;
+    font-weight: 800;
 }
 
 .off-text {
@@ -98,4 +204,90 @@
 
 .deal-img {
     height: 300px;
+}
+
+/* instagram style */
+.ins-head {
+    color: #272727;
+    font-weight: 800;
+}
+
+.ins-para {
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+    padding: 0 450px;
+}
+
+.ins-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 100px;
+    padding: 0 120px;
+}
+
+.ins-img {
+    height: 300px;
+}
+
+/* deal input style */
+.deal-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/flower-img/Rectangle 9.png');
+    background-size: cover;
+    width: 82%;
+    margin: 0 auto 100px;
+    padding: 100px 0;
+    border-radius: 8px;
+}
+
+.deal-input-head {
+    color: #272727;
+    font-weight: 800;
+}
+
+.deal-input-para {
+    font-weight: 400;
+    line-height: 30px;
+    margin: 8px 0 40px;
+}
+
+.input-deal {
+    width: 500px;
+    margin: 0 8px 0 0;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+/* footer style */
+footer {
+    background-color: #111010;
+    padding: 100px;
+}
+
+.foot-head {
+    color: #E55473;
+    font-weight: 800;
+}
+
+.footHalfColor {
+    color: #fff;
+}
+
+.foot-para {
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 300px;
+}
+
+.foot-copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
 }
